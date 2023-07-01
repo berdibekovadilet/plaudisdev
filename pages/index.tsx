@@ -23,14 +23,12 @@ const Home: NextPage = () => {
                     <Header/>
                     <Hero/>
                     <KeyServices/>
+                    <ComponentsDevelopment/>
+                    <PageDevelopment/>
+                    <Pricing/>
+                    <WorkWithUs/>
+                    <Footer/>
                 </div>
-            </div>
-            <div className='max-w-[1200px] mx-auto px-4'>
-                <ComponentsDevelopment/>
-                <PageDevelopment/>
-                <Pricing/>
-                <WorkWithUs/>
-                <Footer/>
             </div>
         </>
     )
