@@ -6,7 +6,7 @@ import CurveLine from "../../../public/elements/curveLine.svg"
 
 export const WorkWithUs = () => {
     return (
-        <div className='my-6 md:my-16'>
+        <div className='my-16'>
             <div className='bg-blue-600 rounded-2xl flex justify-between items-center h-[150px] md:h-full text-center mb-4 md:mb-8'>
                 <h2 className='text-white text-5xl md:text-6xl tracking-wide ml-10'><span
                     className='font-pacifico'>Easy</span> to Work</h2>

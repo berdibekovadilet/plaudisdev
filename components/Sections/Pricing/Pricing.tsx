@@ -3,7 +3,7 @@ import React from 'react';
 export const Pricing = () => {
     return (
         <div className='my-6 md:my-16'>
-            <h2 className='text-xl font-semibold mb-8 uppercase'>Our Rates</h2>
+            <h2 className='text-xl font-semibold mb-4 uppercase'>Our Rates</h2>
             <div className='flex flex-col md:flex-row justify-between gap-4'>
                 <div className='md:w-1/4 p-3 rounded-lg border border-gray-300 bg-white'>
                     <h3 className='text-lg font-light mb-3'>Standard Rate</h3>

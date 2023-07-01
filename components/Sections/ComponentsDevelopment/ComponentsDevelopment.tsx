@@ -5,7 +5,7 @@ import {ComponentsCard} from "../../Common/ComponentsCard/ComponentsCard";
 export const ComponentsDevelopment = () => {
     return (
         <div className='my-12 md:my-20'>
-            <h2 className='text-xl font-semibold mb-8 uppercase'>Custom UI Component Development</h2>
+            <h2 className='text-xl font-semibold mb-4 uppercase'>Custom UI Component Development</h2>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                 {ComponentsData.map(item => <ComponentsCard key={item.id} item={item}/>)}
                 <div className='hidden md:block h-3/4 p-3 rounded-2xl border border-gray-300 bg-gray-50 text-gray-500'>
